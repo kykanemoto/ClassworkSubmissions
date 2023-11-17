@@ -1,0 +1,26 @@
+/**
+ * Make a loop to count some nums by adding 18
+ * but the loop stops before 100
+ * @author Kyla K
+ */
+public class SimpleLoop 
+{
+	public static void main(String[] args) 
+	{
+		//make a method for the num loop
+		countSomeNums();
+		}
+/**
+ * Call a method to make a loop that keeps adding 18 to a number
+ * less than 100
+ */
+	private static void countSomeNums() 
+	{
+		int i = 0;
+		for(i = -4;i<100; i+=18)
+		{
+		//print i for the nums at each interval of 18
+		System.out.println(i);	
+		}
+	}
+}
