@@ -11,8 +11,8 @@ public class SimpleLoop
 		countSomeNums();
 		}
 /**
- * Call a method to make a loop that keeps adding 18 to a number
- * less than 100
+ * Call a method to make a loop that keeps adding 18 to a number -4
+ * until it is less than 100
  */
 	private static void countSomeNums() 
 	{
