@@ -1,0 +1,75 @@
+/**
+ * This class will tell is the cake is yummy
+ * using BakeryMain
+ */
+public class Cake {
+	//declare two attributes: a String called flavor
+	//an an int called layers
+	String flavor = new String("Chocolate");
+	int layers;
+	/**
+	 * create constructor with two formal parameters
+	 * @param flavor
+	 * @param layers
+	 */
+	public Cake(String flavor, int layers)
+	{
+	//assign flavor
+		this.flavor = flavor;
+	//assign layers
+		this.layers = layers;
+	/**
+	 * create a constructor with one formal parameter - the flavor
+	 * set flavor to 1
+	 */
+	}
+	public Cake(String n)
+	{
+		this.layers = 1;
+	}
+	/**
+	 * create a method called getFlavor that returns the flavor of the cake
+	 * getter for flavor
+	 * @return this.flavor
+	 */
+	public String getFlavor()
+	{
+		return this.flavor;
+	}
+	/**
+	 * create a method that returns the amount of layers
+	 * getter for layers
+	 * @return this.layers
+	 */
+	public int getLayers()
+	{
+		return this.layers;
+	}
+	/**
+	 * create a method called setFlavor with a formal parameter, String,
+	 * and changes the flavor of the Cake to the input String
+	 */
+	public void setFlavor(String newFlavor)
+	{
+		this.flavor = newFlavor;
+	}
+	/**
+	 * create a method called tellIfTasty and prints out
+	 * "The cake is yummy."
+	 */
+	public static void tellIfTasty()
+	{
+		System.out.println("The cake is yummy.");
+	}
+	/**
+	 * create a method called incrementLayer that adds one to the
+	 * Cake's layer int
+	 */
+	public int incrementLayer()
+	{
+		this.layers = this.layers++;
+	{
+		return this.layers;
+	}
+	}
+}
