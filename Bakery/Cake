@@ -19,8 +19,8 @@ public class Cake {
 	//assign layers
 		this.layers = layers;
 	/**
-	 * create a constructor with one formal parameter - the flavor
-	 * set flavor to 1
+	 * create a constructor with one formal parameter - the layers
+	 * set layers to 1
 	 */
 	}
 	public Cake(String n)
