@@ -1,0 +1,57 @@
+/**
+ * Make a loop that multiplies two numbers
+ * but doesn't use an asterisk
+ */
+package labs;
+public class MathStuff 
+{
+
+	public static void main(String[] args) 
+	{
+		//declare two methods to test Math methods on
+		int myInt = -4;
+		double myDub = -16.0;
+		
+		//test the sqrt method. it should find the square root.
+		double mySqrt = Math.sqrt(myDub);
+		System.out.println(mySqrt);
+		
+		//test the abs method. it should produce what?
+		double myAbsNum = Math.abs(myDub);
+		System.out.println(myAbsNum);
+		
+		double myAbsInt = Math.abs(myInt);
+		System.out.println(myAbsInt);
+		
+		//test the pow method. it raises the first number
+		//to the power of the second number
+		//it only works with doubles
+		double base = 2;
+		double exp = 5;
+		double prod = Math.pow(base, exp);
+		System.out.println(prod);
+		
+		//print a random number from 1-10 inclusive
+		
+		
+		//call a method with parameters that are both ints
+		multTwoNums(6,7);
+	}
+	//create a method to multiply the two ints without an asterisk
+	//print the product you found and return nothing
+	private static void multTwoNums(int x, int y) 
+	{
+		//initialize a variable
+		//z equal to x
+		int z = x;
+		//create a for loop
+		//add x to itself y times
+		for(int i=1;i<y;i++)
+	{		
+			//add x to z 
+			x*=z;
+	}
+			//print x
+			System.out.println(x);
+	}
+}
