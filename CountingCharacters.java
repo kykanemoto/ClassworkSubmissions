@@ -13,7 +13,8 @@ public class DiceRoller
  * @param c
  * @return
  */
-	private static int countChars(String string, char c) {
+	private static int countChars(String string, char c) 
+	{
 		int count = 0;
 		for (int i=0;i< string.length();i++)
 		{
