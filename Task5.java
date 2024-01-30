@@ -1,3 +1,7 @@
+/**
+ * Dice Machine class that will roll a user's dice input
+ * @author Kyla
+ */
 package labs;
 public class DiceMachine {
 
