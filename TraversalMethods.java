@@ -43,7 +43,6 @@ public class TraversalMethods {
 		consecdubs(arr4);
 		//print the consecdubs method to check if it works
 		System.out.println(consecdubs(arr4));
-
 	}
 	/**
 	 * 5. Make a method that is passed a double array and 
