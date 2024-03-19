@@ -20,7 +20,7 @@ public class DiceRoller
 		//make a for loop that goes through each character in the string
 		for (int i=0;i< string.length();i++)
 		{
-			//make an if statement if the string at the index is c
+			//make an if statement to check if the string at the index is c
 			if(string.charAt(i) == c)
 			{
 				//add one to count to keep track of how many characters are c
