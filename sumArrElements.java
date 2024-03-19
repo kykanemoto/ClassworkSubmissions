@@ -12,7 +12,7 @@ public class sumArrElements {
 		//To make sure your code works, you should probably 
 		//make a class with a main method. In that main method, 
 		//make an array, pass the method the array, and print out whatever it returns. 
-		printsumArrElements(arr);
+		sumArrElements(arr);
 
 		//declare a new array
 		int []arr1 = {8, 3, 7, 23, 18, 43};
@@ -24,7 +24,7 @@ public class sumArrElements {
 		//{ 3, 1, 12, 1, 9, 1, 12 }
 		
 		//Precondition: the array will always be at least length 2. 
-		printmakeEveryOtherOne(arr1);
+		makeEveryOtherOne(arr1);
 
 	}
 	/**
@@ -32,46 +32,32 @@ public class sumArrElements {
 	 * to make every other element '1' beginning with the second element
 	 * @param arr1
 	 */
-	private static void printmakeEveryOtherOne(int[] arr1) {
+	private static void makeEveryOtherOne(int[] arr1) {
 		//make a for loop to traverse the array
 		//declare i and set it equal to one since you want it to 
 		//change every other element from starting from 2
 		for(int i=1; i<arr1.length; i+=2)
 		{
+			//set the element at the index equal to one
 			arr1[i]=1;
 		}
-		//check if it works
-		//print a bracket
-		System.out.print("{");
-		//for loop to traverse the array
-		for(int traverser = 0; traverser < arr1.length; traverser++)
-		{
-			//print out the array
-			System.out.print(arr1[traverser]);
-		//print a comma if counter isn't on last element
-		if (traverser != arr1.length-1)
-			//print a comma after each element
-			System.out.print(", ");
-		}
-		//print a bracket
-		System.out.print("}");
-		}
+	}
 		
 	/**
 	 * method that is passed an array of doubles and returns the sum of all its elements
 	 * @param arr
 	 */
-	private static void printsumArrElements(double [] arr) {
+	public static double sumArrElements(double [] arr) {
 		//declare int sum
 		double sum = 0;
 		//make a for loop to traverse the array
 		for(int index = 0; index < arr.length; index++)
 		{
-			//get the sum of all the elements in the array
-			sum = sum + arr[index];
+			//add the value of the element at the index to sum
+			sum += arr[index];
 		}
-		//print the sum
-		System.out.println(sum);
+		//return the sum of all the elements in the array
+		return sum;
 	}
 	
 }
