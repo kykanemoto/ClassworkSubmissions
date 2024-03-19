@@ -126,12 +126,12 @@ public class TraversalMethods {
 		//make a for loop to traverse the array
 		for (int i = 0; i<arr1.length; i++)
 		{
-			//add up each element in the array and divide it by the 
-			//number of elements to get the average of the array
-			sum += arr1[i]/arr1.length;
+			//add the current double element in the array to sum
+			sum += arr1[i];
 		}
-		//return the sum
-		return sum;
+		//return the average double value
+		//sum divided by the length of the array
+		return sum/arr1.length;
 	}
 	/**
 	 * 1. Make a method that is passed an int array and returns the highest value in that array.
