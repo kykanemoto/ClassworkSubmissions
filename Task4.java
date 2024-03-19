@@ -35,10 +35,7 @@ public class DiceMachine
 		System.out.println("Rolling " + a + " " + b + "-sided dice gives " + num + ".");
 		}
 		/**
-		 * split the input
-		 * (ex. 4d5)
-		 * take the substring of the string to isolate the first and second numbers
-		 * excluding the d
+		 * Method that will print two number components of a user's dice input and will print out their sum
 		 * @param dice
 		 */
 		public static void dicenum(String dice)
