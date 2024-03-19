@@ -10,24 +10,24 @@ public class printPrevNextElement {
 		//For example, if the method is passed actual parameters in main like so:
 		//Precondition: the method will never be passed an index that creates an 
 		//ArrayIndexOutOfBoundsException error.
-		double[] arr = {1.01, 3.22, 5.99, -6.78, 14.37};
-		double index = 2;
+		double[] arr = {1.01, 3.22, 5.99, 6.78, 7.80, 9.32 14.37};
+		int index = 3;
 		
 		//call a method get the previous and next number of an element
 		printPrevnextElement(arr, index);
 
 	}
 	/**
-	 * method to get the number before and after the index
+	 * method to print the number before and after the index
 	 * @param arr
-	 * @param index
+	 * @param n
 	 */
-	private static void printPrevnextElement(double[] arr, double index) {
+	private static void printPrevnextElement(double[] num, int n) {
 		//print the number before and after the index
-		System.out.println(arr[(int)index-1] + " " + arr[(int)(index+1)]);
-		System.out.println("The number before the element at index 2 is "
-		+ arr[(int)index-1] + " and the number after the element at index 2 is " 
-		+ arr[(int)(index+1)]);
+		System.out.println(num[n-1] + " " + num[n+1]);
+		System.out.println("The number before the element at index " + n + " is "
+		+ num[n-1] + " and the number after the element at index " + n + " is " 
+		+ num[n+1] + ".");
 	}
 
 }
