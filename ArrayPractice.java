@@ -27,7 +27,8 @@ public class ArraysPractice
 		System.out.println(firstLast[0] + "" + firstLast[firstLast.length-1]);
 	}
 	/**
-	 * method to get the first and last elements in an array
+	 * Create a method giveFirstAndLastArray that if passed an array, 
+         * will return an array consisting of ONLY the first and last two elements.
 	 * @param evens
 	 * @return newArr
 	 */
