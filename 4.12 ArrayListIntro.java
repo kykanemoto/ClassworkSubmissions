@@ -2,7 +2,6 @@ import java.util.ArrayList;
 public class ArrayListIntro {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//Task 1: Create an empty ArrayList studentNames of Strings.
 		ArrayList<String> studentNames = new ArrayList<String>();
 		//Task 2: Add the following String literals to studentNames: "Alice", "Charlie", "Dave", "Elizabeth", "Fieri", "Gwen". 
